@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>checkbox.css Demo</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<style>
+		div {
+			display: flex;
+			flex-direction: row;
+		}
+		div div {
+			display: flex;
+			flex-direction: column;
+			margin-right: 20px;
+		}
+		label {
+			display: flex;
+			align-items: center;
+			font-size: 10px;
+			margin-bottom: 10px;
+		}
+
+		span {
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+	</style>
+</head>
+<body>
+
+<div>
+	<div>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 10px; --radius: 10px; --bg: #E13022; --color: #FFFFFF; --time: 0s;">
+			<span>Coke</span>
+		</label>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 10px; --radius: 10px; --bg: #CCD0D4; --color: #E13022; --time: 0.5s;">
+			<span>Diet Coke</span>
+		</label>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 10px; --radius: 2px; --bg: #1E1E1E; --color: #F40009; --time: 0s;">
+			<span>Coke Zero</span>
+		</label>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 10px; --radius: 2px; --bg: #008B47; --color: #F8CD24; --time: 0.5s;">
+			<span>Sprite</span>
+		</label>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 10px; --radius: 0px; --bg: #000000; --color: #EDCB4E; --time: 0s;">
+			<span>Lift</span>
+		</label>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 10px; --radius: 0px; --bg: #FF8300; --color: #11246F; --time: 0.5s;">
+			<span>Fanta</span>
+		</label>
+	</div>
+
+	<div>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 12px; --radius: 0px; --bg: #00704A; --color: #FFFFFF; --time: 0.2s;">
+			<span>Starbucks</span>
+		</label>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 16px; --radius: 4px; --bg: #FFC906; --color: #CC1E4A; --time: 0.3s;">
+			<span>Red Bull</span>
+		</label>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 20px; --radius: 8px; --bg: #000000; --color: #F47A37; --time: 0.4s;">
+			<span>Gatorade</span>
+		</label>
+		<label>
+			<input type="checkbox" class="checkbox"
+				   style="--size: 24px; --radius: 12px; --bg: #005CB4; --color: #FFFFFF; --time: 0.5s;">
+			<span>Pepsi</span>
+		</label>
+	</div>
+</div>
+
+</body>
+</html>

@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/ayfallen/checkboxes/issues"
   },
-  "homepage": "https://github.com/ayfallen/checkboxes#readme"
+  "homepage": "https://github.com/ayfallen/checkboxes#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0"
+  }
 }

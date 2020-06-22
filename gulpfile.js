@@ -4,7 +4,7 @@ const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 
 const SOURCE = 'src/';
-const DESTINATION = 'dist/';
+const DESTINATION = 'dist/css/';
 
 async function clean(cb) {
     await del(`${DESTINATION}`);
@@ -12,7 +12,7 @@ async function clean(cb) {
 }
 
 function css(cb) {
-    src(`${SOURCE}/**/*.css`)
+    src(`${SOURCE}/scss/*.css`)
 		.pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(rename({ suffix: ".min" }))
 		.pipe(dest(`${DESTINATION}`));

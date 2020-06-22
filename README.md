@@ -2,6 +2,8 @@
 
 A library for customizable checkboxes ✅
 
+[Demo](http://checkboxes.yifanai.com) 👈
+
 ## Background
 
 Different browsers have different implementations for checkboxes:

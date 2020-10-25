@@ -22,7 +22,7 @@ These checkboxes by browsers are styled by User Agent style sheets and they can 
 Thus, these checkboxes can hardly match the logo and theme colour of a website or a system! 😩
 
 After some work, I successfully styled the checkboxes for our company's website. 😀 \
-See [my reflection tweet](https://twitter.com/allenlearnit/status/1273599758129483776).
+See [my reflection tweet](https://twitter.com/yifaneye/status/1273599758129483776).
 
 I would like to style them with ease in the future and for everyone, hence the creation of this small side project. 🙌
 
@@ -117,7 +117,7 @@ where the default style is
 
 * **Yifan Ai** - *Initial work*
 
-See also the list of [contributors](https://github.com/ayfallen/checkboxes/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/yifaneye/checkboxes/graphs/contributors) who participated in this project.
 
 ## License
 

@@ -1,6 +1,7 @@
 const {src, dest, series} = require('gulp');
 const del = require('del');
 const sass = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer');
 const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 
@@ -15,6 +16,9 @@ async function clean(cb) {
 function css(cb) {
     src(`${SOURCE}/scss/*.scss`)
 		.pipe(sass())
+		.pipe(autoprefixer({
+			cascade: false
+		}))
 		.pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(rename({ suffix: ".min" }))
 		.pipe(dest(`${DESTINATION}`));

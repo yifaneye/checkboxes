@@ -1,4 +1,4 @@
-.checkbox {
+input[type='checkbox'].checkbox {
   --size: 12px;
   --radius: calc(var(--size) / 10);
   --bg: red;

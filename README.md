@@ -37,7 +37,7 @@ There are now a couple of customizable options for the checkboxes. And many more
 Add this line to HTML file
 
 ```
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/checkboxes@1.1.3/dist/css/checkboxes.min.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/checkboxes@1.3.1/dist/css/checkboxes.min.css">
 ```
 
 ✅
@@ -86,12 +86,15 @@ style="--size: 20px; --radius: 8px; --bg: #000000; --color: #F47A37; --time: 0.4
 
 where the default style is
 ```
---size: 12px;
---radius: calc(var(--size) / 10);
---bg: red;
---color: white;
---time: 0.5s;
+input[type='checkbox'].checkbox {
+    --size: 12px;
+    --radius: calc(var(--size) / 10);
+    --bg: red;
+    --color: white;
+    --time: 0.5s;
+}
 ```
+which can be easily overridden.
 
 ## Package Structure
 
@@ -108,8 +111,6 @@ where the default style is
 `-- src
     |-- checkboxes.html
     `-- scss
-        |-- checkboxes.css
-        |-- checkboxes.css.map
         `-- checkboxes.scss
 ```
 

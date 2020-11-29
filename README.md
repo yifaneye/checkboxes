@@ -18,7 +18,7 @@ See [this post](https://stackoverflow.com/questions/24322599/why-cannot-change-c
 
 Chrome uses the thick white tick, while Safari, Opera, Edge and Firefox all use the thin white tick. 😢
 
-Safari, Opera and Edge use user's preferred Accent colour (from System Preferences on a Mac) as background for the checkboxes, whereas Chrome and Firefox stick with blue background. 🤯
+In addition, Safari, Opera and Edge use user's preferred Accent colour (from System Preferences on a Mac) as background for the checkboxes, whereas Chrome and Firefox stick with blue background. 🤯
 
 ![macOS System Preferences](https://yifanai.s3-ap-southeast-2.amazonaws.com/checkboxes/preferences.jpg)
 
@@ -54,7 +54,15 @@ Install checkboxes package using npm
 npm i checkboxes
 ```
 
-then add this line to HTML file
+then \
+add this line to index.js
+
+```
+require('grilled');
+```
+
+OR \
+add this line to HTML file
 
 ```
 <link rel="stylesheet" type="text/css" href="checkboxes/dist/css/checkboxes.min.css">

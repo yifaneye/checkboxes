@@ -10,13 +10,17 @@ Different browsers have different implementations for checkboxes:
 
 See [this post](https://stackoverflow.com/questions/24322599/why-cannot-change-checkbox-color-whatever-i-do) about not able to style checkboxes. 😭
 
-![](assets/safari.jpg) ![](assets/chrome.jpg) ![](assets/firefox.jpg) ![](assets/opera.jpg) ![](assets/edge.jpg)
+![checkbox on Safari](https://yifanai.s3-ap-southeast-2.amazonaws.com/checkboxes/safari.jpg)
+![checkbox on Chrome](https://yifanai.s3-ap-southeast-2.amazonaws.com/checkboxes/chrome.jpg)
+![checkbox on Firefox](https://yifanai.s3-ap-southeast-2.amazonaws.com/checkboxes/firefox.jpg)
+![checkbox on Opera](https://yifanai.s3-ap-southeast-2.amazonaws.com/checkboxes/opera.jpg)
+![checkbox on Edge](https://yifanai.s3-ap-southeast-2.amazonaws.com/checkboxes/edge.jpg)
 
 Chrome uses the thick white tick, while Safari, Opera, Edge and Firefox all use the thin white tick. 😢
 
 Safari, Opera and Edge use user's preferred Accent colour (from System Preferences on a Mac) as background for the checkboxes, whereas Chrome and Firefox stick with blue background. 🤯
 
-![](assets/preferences.jpg)
+![macOS System Preferences](https://yifanai.s3-ap-southeast-2.amazonaws.com/checkboxes/preferences.jpg)
 
 These checkboxes by browsers are styled by User Agent style sheets and they can not be overridden easily. 😕 \
 Thus, these checkboxes can hardly match the logo and theme colour of a website or a system! 😩
@@ -26,7 +30,7 @@ See [my reflection tweet](https://twitter.com/yifaneye/status/127359975812948377
 
 I would like to style them with ease in the future and for everyone, hence the creation of this small side project. 🙌
 
-![](assets/checkboxes.gif)
+![checkboxes demo](https://yifanai.s3-ap-southeast-2.amazonaws.com/checkboxes/checkboxes.gif)
 
 There are now a couple of customizable options for the checkboxes. And many more to come!
 

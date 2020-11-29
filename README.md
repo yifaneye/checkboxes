@@ -58,7 +58,7 @@ then \
 add this line to index.js
 
 ```
-require('grilled');
+require('checkboxes');
 ```
 
 OR \

@@ -2,7 +2,7 @@
 
 A library for customizable checkboxes ✅
 
-👉 [Website Demo](https://unpkg.com/checkboxes@1.3.2/dist/checkboxes.html)
+👉 [Website Demo](https://unpkg.com/checkboxes@1.3.3/dist/checkboxes.html)
 
 ## Background
 
@@ -41,7 +41,7 @@ There are now a couple of customizable options for the checkboxes. And many more
 Add this line to HTML file
 
 ```
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/checkboxes@1.3.2/dist/css/checkboxes.min.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/checkboxes@1.3.3/dist/css/checkboxes.min.css">
 ```
 
 ✅
